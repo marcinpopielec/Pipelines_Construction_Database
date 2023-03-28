@@ -31,8 +31,16 @@ Oracle technology is used to design, populate and deploy main features.
     
 ### Tools:
 
-* `Autonomous Database ver.18c`
+* `Oracle Database 18c Express Edition`
 * `PL/SQL`
 * `SQL`
 * `Data Modeler`
-* `SQL Developer`
+* `SQL Developer`  
+
+## Getting started
+
+### Prerequisites  
+
+### 1. Installing SQL Developer on Windows
+
+After creation of free `Oracle Account` [click here](https://profile.oracle.com/myprofile/account/create-account.jspx), You can download SQL Developer from official Oracle's website [click here](https://www.oracle.com/database/sqldeveloper/technologies/download/) .  
