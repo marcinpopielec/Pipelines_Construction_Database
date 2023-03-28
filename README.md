@@ -44,3 +44,18 @@ Oracle technology is used to design, populate and deploy main features.
 ### 1. Installing SQL Developer on Windows
 
 After creation of free `Oracle Account` [click here](https://profile.oracle.com/myprofile/account/create-account.jspx), You can download SQL Developer from official Oracle's website [click here](https://www.oracle.com/database/sqldeveloper/technologies/download/) .  
+Process of instalation is quite simple, but if You would have a problem [here](https://docs.oracle.com/en/database/oracle/sql-developer/22.2/rptug/sql-developer-concepts-usage.html#GUID-156BEBA3-2F9B-4CE0-8E91-728581FF46AB) is documentation on the subject.   
+
+### 2. Installing Oracle Database 18c on Windows 10/11  
+Apart from SQL Developer you need to install the Oracle database. Here you have good tutorial how to install this software [click here](https://www.youtube.com/watch?v=oFKzUUOVX-I)  
+
+### 3. Connecting to database  
+ 
+1. Run SQL Developer
+2. Let's created a user, who have restricted privileges and with password on subjected database  
+* user: CONSTRUCTION
+* password: 123
+3. At the left side of the window You should see the panel named **Connections**.  
+
+
+
