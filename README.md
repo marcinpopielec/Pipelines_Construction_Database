@@ -76,7 +76,7 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
 ![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/3.jpg)  
 
 ### Designing database  
-You can see the database model [here]([Pipelines_Construction_Database/assets/Pipelines_Construction_Database.png](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/assets/Pipelines_Construction_Database.png?raw=true))
+You can see the database model [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/assets/Pipelines_Construction_Database.png?raw=true)
 
 I've spent a lot of time to design this database according to best practices. In most cases it meets requirements of the third normal form.  
 It contains  defined relations between tables to keep consistency and integrity of data.  
