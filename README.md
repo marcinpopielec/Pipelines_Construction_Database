@@ -52,11 +52,26 @@ Apart from SQL Developer you need to install the Oracle database. Here you have 
 ### 3. Connecting to database  
  
 1. Run SQL Developer
-2. Let's created a user, who have restricted privileges and with password on subjected database  
-* user: CONSTRUCTION
-* password: 123
-3. As a SYSTEM user 
-[user creation](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/creating%20user%20'CONSTRUCTION'.sql) named **Connections**.![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/1.png)
+2. Log in as the SYSTEM user
+3. Copy the code from [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/creating%20user%20'CONSTRUCTION'.sql) , paste and execute.  
+![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/1.png)  
+
+ We have created a user CONSTRUCTION with restricted privileges and with access password: 123 in the database.  
+ 
+ 4. Click on the green cross in the "Connections" tab:  
+ 
+  ![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/2.png)  
+ - enter the name as: "CONSTRUCTION@XEPDB1",
+ - user name: "CONSTRUCTION",
+ - password: 123,
+ - set connection type as: TNS,
+ - set Network alias as: XEPDB1,
+ - click test,
+ - in the lower left corner you should see Status: Success,
+ - click Connect.
+
+ 
+ 
 
 
 
