@@ -68,7 +68,12 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
  - click test,
  - in the lower left corner you should see Status: Success,
  - click Connect.  
- You can change the password using the command: ALTER USER CONSTRUCTION IDENTIFIED BY new_password;
+ You can change the password using the command: ALTER USER CONSTRUCTION IDENTIFIED BY new_password;  
+ 
+5. Last step is to copy attached [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/generate_construction.sql), paste it in Worksheet of your created user and Run this sript.
+6. To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then tables.  
+
+![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/3.jpg)
 
  
  
