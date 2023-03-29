@@ -70,10 +70,17 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
  - click Connect.  
  You can change the password using the command: ALTER USER CONSTRUCTION IDENTIFIED BY new_password;  
  
-5. Last step is to copy attached [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/generate_construction.sql), paste it in Worksheet of your created user and Run this sript.
-6. To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then tables.  
+5. Last step is to copy attached [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/generate_construction.sql), paste it in Worksheet of your created user and run this sript.
+6. To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then tables: 
 
-![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/3.jpg)
+![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/3.jpg)  
+
+### Designing database  
+You can see the database model [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Pipelines_Construction_Database.png)
+
+I've spent a lot of time to design this database according to best practices. In most cases it meets requirements of the third normal form.  
+It contains  defined relations between tables to keep consistency and integrity of data.  
+The entire structure is designed so that all data from construction site can be easily stored and used for reporting and create as-built documentation.
 
  
  
