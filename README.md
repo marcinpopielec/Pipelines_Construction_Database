@@ -47,7 +47,7 @@ After creation of free `Oracle Account` [click here](https://profile.oracle.com/
 Process of instalation is quite simple, but if You would have a problem [here](https://docs.oracle.com/en/database/oracle/sql-developer/22.2/rptug/sql-developer-concepts-usage.html#GUID-156BEBA3-2F9B-4CE0-8E91-728581FF46AB) is documentation on the subject.   
 
 ### 2. Installing Oracle Database 18c on Windows 10/11  
-Apart from SQL Developer you need to install the Oracle database. Here you have good tutorial how to install this software [click here](https://www.youtube.com/watch?v=oFKzUUOVX-I)  
+In addition to SQL Developer you need to install the Oracle database. Here you have good tutorial how to install this software [click here](https://www.youtube.com/watch?v=oFKzUUOVX-I)  
 
 ### 3. Connecting to database  
  
@@ -55,8 +55,7 @@ Apart from SQL Developer you need to install the Oracle database. Here you have 
 2. Log in as the SYSTEM user
 3. Copy the code from [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/creating%20user%20'CONSTRUCTION'.sql) , paste and execute.  
 ![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/1.png)  
-
- We have created a user CONSTRUCTION with restricted privileges and with access password: 123 in the database.  
+We have created a user CONSTRUCTION with restricted privileges and with access password: 123 in the database.  
  
  4. Click on the green cross in the "Connections" tab:  
  
@@ -68,7 +67,8 @@ Apart from SQL Developer you need to install the Oracle database. Here you have 
  - set Network alias as: XEPDB1,
  - click test,
  - in the lower left corner you should see Status: Success,
- - click Connect.
+ - click Connect.  
+ You can change the password using the command: ALTER USER CONSTRUCTION IDENTIFIED BY new_password;
 
  
  
