@@ -73,12 +73,17 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
 5. Last step is to copy attached [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/generate_construction.sql), paste it in Worksheet of your created user and run this sript.
 6. To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then tables: 
 
-![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/3.jpg?raw=true)
+![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/3.jpg?raw=true)  
+## How project is progressing
+
+This project is still tested and in progress.
 ### Designing database   
 I used `Data Modeler` to create a logical and physical database model. You can see [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Pipelines_Construction_Database.png?raw=true)  
 
 The database has been designed in accordance with the best practices. In most cases it meets requirements of the third normal form.  
-It contains  defined relations between tables to keep consistency and integrity of data. The entire structure is designed so that all data from construction site can be easily stored and used for reporting and create as-built documentation.
+It contains  defined relations between tables to keep consistency and integrity of data. The entire structure is designed so that all data from construction site can be easily stored and used for reporting and create as-built documentation.  
+### Populating database
+I have prepared a script with sample data that can be loaded into the database. 
 
  
  
