@@ -51,13 +51,13 @@ In addition to SQL Developer you need to install the Oracle database. Here you h
 
 ### 3. Connecting to database  
  
-1. Run SQL Developer
-2. Log in as the SYSTEM user
-3. Copy the code from [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/creating%20user%20'CONSTRUCTION'.sql) , paste and execute.  
+- Run SQL Developer
+- Log in as the SYSTEM user
+- Copy the code from [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/creating%20user%20'CONSTRUCTION'.sql) , paste and execute.  
 ![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/1.png)  
 We have created a user CONSTRUCTION with restricted privileges and with access password: 123 in the database.  
  
- 4. Click on the green cross in the "Connections" tab:  
+ - Click on the green cross in the "Connections" tab:  
  
   ![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/2.png)  
  - enter the name as: "CONSTRUCTION@XEPDB1",
@@ -73,14 +73,12 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
 5. Last step is to copy attached [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/generate_construction.sql), paste it in Worksheet of your created user and run this sript.
 6. To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then tables: 
 
-![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/3.jpg)  
+![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/3.jpg?raw=true)
+### Designing database   
+I used `Data Modeler` to create a logical and physical database model. You can see [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Pipelines_Construction_Database.png?raw=true)  
 
-### Designing database  
-You can see the [database_model](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Pipelines_Construction_Database.png?raw=true)
-
-I've spent a lot of time to design this database according to best practices. In most cases it meets requirements of the third normal form.  
-It contains  defined relations between tables to keep consistency and integrity of data.  
-The entire structure is designed so that all data from construction site can be easily stored and used for reporting and create as-built documentation.
+The database has been designed in accordance with the best practices. In most cases it meets requirements of the third normal form.  
+It contains  defined relations between tables to keep consistency and integrity of data. The entire structure is designed so that all data from construction site can be easily stored and used for reporting and create as-built documentation.
 
  
  
