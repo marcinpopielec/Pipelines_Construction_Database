@@ -55,7 +55,8 @@ Apart from SQL Developer you need to install the Oracle database. Here you have 
 2. Let's created a user, who have restricted privileges and with password on subjected database  
 * user: CONSTRUCTION
 * password: 123
-3. At the left side of the window You should see the panel named **Connections**.![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/1.png)
+3. As a SYSTEM user 
+[user creation](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/creating%20user%20'CONSTRUCTION'.sql) named **Connections**.![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/1.png)
 
 
 
