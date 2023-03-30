@@ -53,7 +53,7 @@ In addition to SQL Developer you need to install the Oracle database. Here you h
  
 - Run SQL Developer
 - Log in as the SYSTEM user
-- Copy the code from [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/creating%20user%20'CONSTRUCTION'.sql) , paste and execute.  
+- Copy the code from [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Generate%20Pipelines_Construction_Database/creating%20user%20'CONSTRUCTION'.sql) , paste and execute.  
   
 ![1](https://user-images.githubusercontent.com/44368998/228774309-0032ea76-f739-4c70-a7f9-3cea653f4ac7.png)  
 We have created a user CONSTRUCTION with restricted privileges and with access password: 123 in the database.  
@@ -71,7 +71,7 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
  - click Connect.  
  You can change the password using the command: ALTER USER CONSTRUCTION IDENTIFIED BY new_password;  
  
-5. Last step is to copy attached [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/generate_construction.sql), paste it in worksheet of your created user and run this sript.
+5. Last step is to copy attached [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Generate%20Pipelines_Construction_Database/generate_construction.sql.sql), paste it in worksheet of your created user and run this sript.
 6. To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then tables: 
 
 ![3](https://user-images.githubusercontent.com/44368998/228776865-bf3ca7be-3c56-4591-bd9b-cdb6e9e69dcb.jpg) 
@@ -79,7 +79,7 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
 
 This project is still tested and in progress.
 ### Designing database   
-I used `Data Modeler` to create a logical and physical database model. You can see [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Pipelines_Construction_Database.png?raw=true)  
+I used `Data Modeler` to create a logical and physical database model. You can see [here](https://raw.githubusercontent.com/marcinpopielec/Pipelines_Construction_Database/main/Model%20of%20Pipelines_Construction_Database.png?token=GHSAT0AAAAAACARVDLVT6ICR3I3375ESVLOZBFKGFA)  
 
 The database has been designed in accordance with the best practices. In most cases it meets requirements of the third normal form.  
 It contains  defined relations between tables to keep consistency and integrity of data. The entire structure is designed so that all data from construction site can be easily stored and used for reporting and create as-built documentation.  
