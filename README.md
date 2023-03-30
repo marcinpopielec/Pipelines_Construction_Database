@@ -13,6 +13,7 @@ First database for construction site
 3. [Getting started](https://github.com/marcinpopielec/Pipelines_Construction_Database#getting-started)
 	* [Prerequisites](https://github.com/marcinpopielec/Pipelines_Construction_Database#prerequisites)
 	* [Installing SQL Developer on Windows](https://github.com/marcinpopielec/Pipelines_Construction_Database#Installing-SQL-Developer-on-Windows)
+	* [Installing Oracle Database 18c on Windows](https://github.com/marcinpopielec/Pipelines_Construction_Database#Installing-Oracle-Database-18c-on-Windows)
 	* [Connecting to database](https://github.com/marcinpopielec/Pipelines_Construction_Database#connecting-to-database)
 4. [How project is progressing](https://github.com/marcinpopielec/Pipelines_Construction_Database#how-project-is-progressing)
 	* [Designing database](https://github.com/marcinpopielec/Pipelines_Construction_Database#designing-database)
