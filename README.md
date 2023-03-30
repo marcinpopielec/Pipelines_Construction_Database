@@ -19,6 +19,8 @@ First database for construction site
 5. [Generating database](https://github.com/marcinpopielec/Pipelines_Construction_Database#Generating-database)
 6. [Populating database](https://github.com/marcinpopielec/Pipelines_Construction_Database#Populating-database)
 7. [Features](https://github.com/marcinpopielec/Pipelines_Construction_Database#Features)
+8. [Known issues](https://github.com/marcinpopielec/Pipelines_Construction_Database#Known-issues)
+9. [Contact](https://github.com/marcinpopielec/Pipelines_Construction_Database#Contact)
 
 
 
