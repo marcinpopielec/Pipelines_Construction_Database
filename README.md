@@ -85,6 +85,7 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
  - click test,
  - in the lower left corner you should see Status: Success,
  - click Connect.  
+   
  You can change the password using the command: ALTER USER CONSTRUCTION IDENTIFIED BY new_password;  
  
  ## Designing database   
