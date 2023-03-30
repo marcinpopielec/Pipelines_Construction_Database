@@ -111,7 +111,10 @@ Copy, paste it in worksheet and run.
 
 ## Features
 - employee time management package - we don't have data in the work_hours table yet, please use my dedicated package work_hours_manipulation_pkg (you can find it in my repository in the features folder) and run this program:  
- `BEGIN work_hours_manipulation_pkg.p_fill_work_hours (in_date_start => TO_DATE('2022/08/01', 'YYYY/MM/DD'), in_date_end   => TO_DATE('2022/08/31', 'YYYY/MM/DD')); END;`
+ `BEGIN work_hours_manipulation_pkg.p_fill_work_hours (in_date_start => TO_DATE('2022/08/01', 'YYYY/MM/DD'), in_date_end   => TO_DATE('2022/08/31', 'YYYY/MM/DD')); END;`  
+ - job inserts the default working hours from Monday to Friday at 17:00 for each employee in the project (default_work_hour_emp in the features folder),
+ - 
+
 
  
  
