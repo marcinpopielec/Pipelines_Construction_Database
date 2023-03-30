@@ -115,7 +115,21 @@ Copy, paste it in worksheet and run.
  - job inserts the default working hours from Monday to Friday at 17:00 for each employee in the project (default_work_hour_emp in the features folder),
  - calculating the monthly bonus for each welder based on his performance (welder_bonus_pkg),
  - procedure which populates the table employee_to_talk, which store information about the time we have until expiration of contracts with individual employees (p_generate_emp_to_talk),
- - trigger populates  'ndt_acceptance' column from the 'joints' table based on the results from the 'ndt_results' table (aui_f_ndt_results_trg).
+ - trigger populates  'ndt_acceptance' column from the 'joints' table based on the results from the 'ndt_results' table (aui_f_ndt_results_trg).  
+## Known issues   
+This project is still tested and in progress.  
+
+In the future I will deploy a lot of others procedures, triggers, function and views.  
+
+If You notice any problem please contact me. Any advices or guidance are welcome.  
+
+## Contact  
+
+Marcin Popielec
+
+email: marcin.popielec@gmail.com
+
+Project Link: [https://github.com/marcinpopielec/Pipelines_Construction_Database](https://github.com/marcinpopielec/Pipelines_Construction_Database)
 
 
  
