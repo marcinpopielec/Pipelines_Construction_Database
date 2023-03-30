@@ -12,17 +12,13 @@ First database for construction site
 	* [Tools](https://github.com/marcinpopielec/Pipelines_Construction_Database#tools)
 3. [Getting started](https://github.com/marcinpopielec/Pipelines_Construction_Database#getting-started)
 	* [Prerequisites](https://github.com/marcinpopielec/Pipelines_Construction_Database#prerequisites)
-	* [Installing SQL Developer on Windows](https://github.com/marcinpopielec/Pipelines_Construction_Database#installing-sql-developer-on-windows)
-	* [Installing SQL Developer on Linux](https://github.com/pawelpuszka/ComputerStoreDatabase#installing-sql-developer-on-linux)
-	* [Connecting to database](https://github.com/pawelpuszka/ComputerStoreDatabase#connecting-to-database)
-4. [How to use this database](https://github.com/pawelpuszka/ComputerStoreDatabase#how-to-use-this-database)
-5. [How project is progressing](https://github.com/pawelpuszka/ComputerStoreDatabase#how-project-is-progressing)
-	* [Designing database](https://github.com/pawelpuszka/ComputerStoreDatabase#designing-database)
-	* [Populating database](https://github.com/pawelpuszka/ComputerStoreDatabase#populating-database)
-	* [Features ](https://github.com/pawelpuszka/ComputerStoreDatabase#features)
-6. [Known issues](https://github.com/pawelpuszka/ComputerStoreDatabase#known-issues)
-7. [Contact](https://github.com/pawelpuszka/ComputerStoreDatabase#contact)
-## About
+	* [Installing SQL Developer on Windows](https://github.com/marcinpopielec/Pipelines_Construction_Database#Installing SQL Developer on Windows)
+	* [Installing Oracle Database 18c on Windows](https://github.com/marcinpopielec/Pipelines_Construction_Database# Installing Oracle Database 18c on Windows)
+	* [Connecting to database](https://github.com/marcinpopielec/Pipelines_Construction_Database#connecting-to-database)
+4. [How project is progressing](https://github.com/marcinpopielec/Pipelines_Construction_Database#how-project-is-progressing)
+	* [Designing database](https://github.com/marcinpopielec/Pipelines_Construction_Database#designing-database)
+	* [Populating database](https://github.com/marcinpopielec/Pipelines_Construction_Database#populating-database)
+
 
 ---
 
@@ -64,7 +60,7 @@ Oracle technology is used to design, populate and deploy main features.
 After creation of free `Oracle Account` [click here](https://profile.oracle.com/myprofile/account/create-account.jspx), You can download SQL Developer from official Oracle's website [click here](https://www.oracle.com/database/sqldeveloper/technologies/download/) .  
 Process of instalation is quite simple, but if You would have a problem [here](https://docs.oracle.com/en/database/oracle/sql-developer/22.2/rptug/sql-developer-concepts-usage.html#GUID-156BEBA3-2F9B-4CE0-8E91-728581FF46AB) is documentation on the subject.   
 
-### 2. Installing Oracle Database 18c on Windows 10/11  
+### 2. Installing Oracle Database 18c on Windows 
 In addition to SQL Developer you need to install the Oracle database. Here you have good tutorial how to install this software [click here](https://www.youtube.com/watch?v=oFKzUUOVX-I)  
 
 ### 3. Connecting to database  
