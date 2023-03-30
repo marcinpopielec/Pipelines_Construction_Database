@@ -114,7 +114,8 @@ Copy, paste it in worksheet and run.
  `BEGIN work_hours_manipulation_pkg.p_fill_work_hours (in_date_start => TO_DATE('2022/08/01', 'YYYY/MM/DD'), in_date_end   => TO_DATE('2022/08/31', 'YYYY/MM/DD')); END;`  
  - job inserts the default working hours from Monday to Friday at 17:00 for each employee in the project (default_work_hour_emp in the features folder),
  - calculating the monthly bonus for each welder based on his performance (welder_bonus_pkg),
- - 
+ - procedure which populates the table employee_to_talk, which store information about the time we have until expiration of contracts with individual employees (p_generate_emp_to_talk),
+ - trigger populates  'ndt_acceptance' column from the 'joints' table based on the results from the 'ndt_results' table (aui_f_ndt_results_trg).
 
 
  
