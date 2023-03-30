@@ -32,7 +32,10 @@ Let's imagine we want to build a pipeline. We must prove that every connection b
 - material certificate (to check whether the material from which we build the pipeline is appropriate)
 - what types of post-weld examinations have been used and reports containing test results...  
 and much much more other issues.  
+
 I decided to store all this information in a database.  
+
+For now, I have limited the amount of data to pipeline installations, but when the database is expanded, it will support all major commercial construction projects in the world.
 
 The main goals of this project are:
 
