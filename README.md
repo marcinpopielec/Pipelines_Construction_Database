@@ -55,7 +55,7 @@ Oracle technology is used to design, populate and deploy main features.
 ## Getting started
 
 ### Prerequisites  
-In order to use the project, you should install the database and the necessary software (in our case, it will be SQL Developer) on your computer. If you already have the above-mentioned software, go straight to creating a database user.
+In order to use this project, you should install the database and the necessary software (in our case, it will be SQL Developer) on your computer. If you already have the above-mentioned software, go straight to creating a database user.
 
 ### Installing SQL Developer on Windows
 
