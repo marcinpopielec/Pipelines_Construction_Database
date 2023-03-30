@@ -54,7 +54,7 @@ Oracle technology is used to design, populate and deploy main features.
 
 ### Prerequisites  
 
-### 1.Installing SQL Developer on Windows
+### Installing SQL Developer on Windows
 
 After creation of free `Oracle Account` [click here](https://profile.oracle.com/myprofile/account/create-account.jspx), You can download SQL Developer from official Oracle's website [click here](https://www.oracle.com/database/sqldeveloper/technologies/download/) .  
 Process of instalation is quite simple, but if You would have a problem [here](https://docs.oracle.com/en/database/oracle/sql-developer/22.2/rptug/sql-developer-concepts-usage.html#GUID-156BEBA3-2F9B-4CE0-8E91-728581FF46AB) is documentation on the subject.   
