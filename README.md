@@ -54,7 +54,7 @@ In addition to SQL Developer you need to install the Oracle database. Here you h
 - Run SQL Developer
 - Log in as the SYSTEM user
 - Copy the code from [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/creating%20user%20'CONSTRUCTION'.sql) , paste and execute.  
-![1](https://user-images.githubusercontent.com/44368998/228774309-0032ea76-f739-4c70-a7f9-3cea653f4ac7.png)
+![1](https://user-images.githubusercontent.com/44368998/228774309-0032ea76-f739-4c70-a7f9-3cea653f4ac7.png)  
 We have created a user CONSTRUCTION with restricted privileges and with access password: 123 in the database.  
  
  - Click on the green cross in the "Connections" tab:  
@@ -73,7 +73,7 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
 5. Last step is to copy attached [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/generate_construction.sql), paste it in worksheet of your created user and run this sript.
 6. To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then tables: 
 
-![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/3.jpg?raw=true)  
+![3](https://user-images.githubusercontent.com/44368998/228776865-bf3ca7be-3c56-4591-bd9b-cdb6e9e69dcb.jpg) 
 ## How project is progressing
 
 This project is still tested and in progress.
