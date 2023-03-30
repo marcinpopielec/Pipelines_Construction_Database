@@ -14,7 +14,7 @@ First database for construction site
 	* [Prerequisites](https://github.com/marcinpopielec/Pipelines_Construction_Database#prerequisites)
 	* [Installing SQL Developer on Windows](https://github.com/marcinpopielec/Pipelines_Construction_Database#Installing-SQL-Developer-on-Windows)
 	* [Installing Oracle Database 18c on Windows](https://github.com/marcinpopielec/Pipelines_Construction_Database#Installing-Oracle-Database-18c-on-Windows)
-	* [Connecting to database](https://github.com/marcinpopielec/Pipelines_Construction_Database#connecting-to-database)
+	* [Creating a database user](https://github.com/marcinpopielec/Pipelines_Construction_Database#Creating-a-database-user)
 4. [Designing database](https://github.com/marcinpopielec/Pipelines_Construction_Database#Designing-database)
 5. [Generating database](https://github.com/marcinpopielec/Pipelines_Construction_Database#Generating-database)
 6. [Populating database](https://github.com/marcinpopielec/Pipelines_Construction_Database#Populating-database)
@@ -55,6 +55,7 @@ Oracle technology is used to design, populate and deploy main features.
 ## Getting started
 
 ### Prerequisites  
+In order to use the project, you should install the database and the necessary software (in our case, it will be SQL Developer) on your computer. If you already have the above-mentioned software, go straight to creating a database user.
 
 ### Installing SQL Developer on Windows
 
@@ -64,7 +65,7 @@ Process of instalation is quite simple, but if You would have a problem [here](h
 ### Installing Oracle Database 18c on Windows 
 In addition to SQL Developer you need to install the Oracle database. Here you have good tutorial how to install this software [click here](https://www.youtube.com/watch?v=oFKzUUOVX-I)  
 
-### Connecting to database  
+### Creating a database user  
  
 - Run SQL Developer
 - Log in as the SYSTEM user
@@ -87,18 +88,17 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
  You can change the password using the command: ALTER USER CONSTRUCTION IDENTIFIED BY new_password;  
  
  ## Designing database   
-I used `Data Modeler` to create a logical and physical database model. You can see [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Model%20of%20Pipelines_Construction_Database.png)  
+I used `Data Modeler` to create a logical and physical database model. You can see [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Model%20of%20Pipelines_Construction_Database.png).  
+The database has been designed in accordance with the best practices. In most cases it meets requirements of the third normal form.  
+It contains  defined relations between tables to keep consistency and integrity of data. The entire structure is designed so that all data from construction site can be easily stored and used for reporting and create as-built documentation.  
  
  ## Generating database 
-Last step is to copy attached [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Generate%20Pipelines_Construction_Database/generate_construction.sql.sql), paste it in    worksheet of your created user and run this sript.
+To implement the database structure, please use the script I created: [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Generate%20Pipelines_Construction_Database/generate_construction.sql.sql), paste it in    worksheet of your created user and run this sript.  
+You should already have the entire database created.  
 To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then tables: 
 
 ![3](https://user-images.githubusercontent.com/44368998/228776865-bf3ca7be-3c56-4591-bd9b-cdb6e9e69dcb.jpg) 
 
-
-
-The database has been designed in accordance with the best practices. In most cases it meets requirements of the third normal form.  
-It contains  defined relations between tables to keep consistency and integrity of data. The entire structure is designed so that all data from construction site can be easily stored and used for reporting and create as-built documentation.  
 ## Populating database
 I have prepared a script with sample data that can be loaded into the database.
 You can find out [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Populating%20Pipelines_Construction_Database/populate_CONSTRUCTION_Database.sql).
