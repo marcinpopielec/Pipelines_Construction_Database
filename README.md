@@ -101,7 +101,8 @@ To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then t
 
 ## Populating database
 I have prepared a script with sample data that can be loaded into the database.
-You can find out [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Populating%20Pipelines_Construction_Database/populate_CONSTRUCTION_Database.sql).
+You can find out [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Populating%20Pipelines_Construction_Database/populate_CONSTRUCTION_Database.sql).  
+Copy, paste it in worksheet and run.
 
 
  
