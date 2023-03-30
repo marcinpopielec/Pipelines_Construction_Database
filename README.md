@@ -90,7 +90,7 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
 I used `Data Modeler` to create a logical and physical database model. You can see [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Model%20of%20Pipelines_Construction_Database.png)  
  
  ## Generating database 
-Last step is to copy attached [script: generate_construction.sql]  (https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Generate%20Pipelines_Construction_Database/generate_construction.sql.sql), paste it in    worksheet of your created user and run this sript.
+Last step is to copy attached [script: generate_construction.sql](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Generate%20Pipelines_Construction_Database/generate_construction.sql.sql), paste it in    worksheet of your created user and run this sript.
 To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then tables: 
 
 ![3](https://user-images.githubusercontent.com/44368998/228776865-bf3ca7be-3c56-4591-bd9b-cdb6e9e69dcb.jpg) 
