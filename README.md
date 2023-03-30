@@ -18,6 +18,7 @@ First database for construction site
 4. [Designing database](https://github.com/marcinpopielec/Pipelines_Construction_Database#Designing-database)
 5. [Generating database](https://github.com/marcinpopielec/Pipelines_Construction_Database#Generating-database)
 6. [Populating database](https://github.com/marcinpopielec/Pipelines_Construction_Database#Populating-database)
+7. [Features](https://github.com/marcinpopielec/Pipelines_Construction_Database#Populating-Features)
 
 
 
@@ -106,7 +107,9 @@ To see a list of tables, find CONSTRUCTION@XEPDB1 on the left sidebar and then t
 ## Populating database
 I have prepared a script with sample data that can be loaded into the database.
 You can find out [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Populating%20Pipelines_Construction_Database/populate_CONSTRUCTION_Database.sql).  
-Copy, paste it in worksheet and run.
+Copy, paste it in worksheet and run. 
+
+## Features
 
 
  
