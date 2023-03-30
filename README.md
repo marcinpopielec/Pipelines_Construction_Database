@@ -54,7 +54,7 @@ In addition to SQL Developer you need to install the Oracle database. Here you h
 - Run SQL Developer
 - Log in as the SYSTEM user
 - Copy the code from [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/creating%20user%20'CONSTRUCTION'.sql) , paste and execute.  
-![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/1.png)  
+![1](https://user-images.githubusercontent.com/44368998/228774309-0032ea76-f739-4c70-a7f9-3cea653f4ac7.png)
 We have created a user CONSTRUCTION with restricted privileges and with access password: 123 in the database.  
  
  - Click on the green cross in the "Connections" tab:  
