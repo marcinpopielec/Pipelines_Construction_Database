@@ -85,7 +85,7 @@ The database has been designed in accordance with the best practices. In most ca
 It contains  defined relations between tables to keep consistency and integrity of data. The entire structure is designed so that all data from construction site can be easily stored and used for reporting and create as-built documentation.  
 ### Populating database
 I have prepared a script with sample data that can be loaded into the database.
-Yu can find out [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Populating%20Pipelines_Construction_Database/populate_CONSTRUCTION_Database.sql)
+You can find out [here](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Populating%20Pipelines_Construction_Database/populate_CONSTRUCTION_Database.sql).
 
 
  
