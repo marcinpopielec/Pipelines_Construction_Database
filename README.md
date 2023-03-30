@@ -4,7 +4,25 @@ First database for construction site
 ![lang](https://img.shields.io/static/v1?label=lang&message=PL/SQL&color=blue)
 ![lang](https://img.shields.io/static/v1?label=lang&message=SQL&color=yellow)
 ![engine](https://img.shields.io/static/v1?label=engine&message=Oracle&color=green)
-![engine-ver](https://img.shields.io/static/v1?label=version&message=18c&color=green)
+![engine-ver](https://img.shields.io/static/v1?label=version&message=18c&color=green)  
+
+## Table of Contents
+1. [About](https://github.com/marcinpopielec/Pipelines_Construction_Database#about)
+2. [Built With](https://github.com/marcinpopielec/Pipelines_Construction_Database#built-with)
+	* [Tools](https://github.com/marcinpopielec/Pipelines_Construction_Database#tools)
+3. [Getting started](https://github.com/marcinpopielec/Pipelines_Construction_Database#getting-started)
+	* [Prerequisites](https://github.com/marcinpopielec/Pipelines_Construction_Database#prerequisites)
+	* [Installing SQL Developer on Windows](https://github.com/marcinpopielec/Pipelines_Construction_Database#installing-sql-developer-on-windows)
+	* [Installing SQL Developer on Linux](https://github.com/pawelpuszka/ComputerStoreDatabase#installing-sql-developer-on-linux)
+	* [Connecting to database](https://github.com/pawelpuszka/ComputerStoreDatabase#connecting-to-database)
+4. [How to use this database](https://github.com/pawelpuszka/ComputerStoreDatabase#how-to-use-this-database)
+5. [How project is progressing](https://github.com/pawelpuszka/ComputerStoreDatabase#how-project-is-progressing)
+	* [Designing database](https://github.com/pawelpuszka/ComputerStoreDatabase#designing-database)
+	* [Populating database](https://github.com/pawelpuszka/ComputerStoreDatabase#populating-database)
+	* [Features ](https://github.com/pawelpuszka/ComputerStoreDatabase#features)
+6. [Known issues](https://github.com/pawelpuszka/ComputerStoreDatabase#known-issues)
+7. [Contact](https://github.com/pawelpuszka/ComputerStoreDatabase#contact)
+## About
 
 ---
 
