@@ -59,7 +59,7 @@ We have created a user CONSTRUCTION with restricted privileges and with access p
  
  - Click on the green cross in the "Connections" tab:  
  
-  ![1](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/2.png)  
+ ![2](https://user-images.githubusercontent.com/44368998/228776242-49e0494b-0867-409b-bdec-5a783454084f.png)
  - enter the name as: "CONSTRUCTION@XEPDB1",
  - user name: "CONSTRUCTION",
  - password: 123,
