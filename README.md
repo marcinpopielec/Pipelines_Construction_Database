@@ -4,8 +4,9 @@ First database for construction site
 ![lang](https://img.shields.io/static/v1?label=lang&message=PL/SQL&color=blue)
 ![lang](https://img.shields.io/static/v1?label=lang&message=SQL&color=yellow)
 ![engine](https://img.shields.io/static/v1?label=engine&message=Oracle&color=green)
-![engine-ver](https://img.shields.io/static/v1?label=version&message=18c&color=green)  
+![engine-ver](https://img.shields.io/static/v1?label=version&message=18c&color=green)   
 
+![Rurociagi 2](https://user-images.githubusercontent.com/44368998/228905961-70610b7c-0ee2-4f0c-a803-8f9bfe51b6d2.jpg)
 ## Table of Contents
 1. [About](https://github.com/marcinpopielec/Pipelines_Construction_Database#about)
 2. [Built With](https://github.com/marcinpopielec/Pipelines_Construction_Database#built-with)
