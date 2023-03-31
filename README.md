@@ -39,7 +39,7 @@ and much much more other issues.
 
 I decided to store all this information in a database.  
 
-For now, I have limited the amount of data to pipeline installations, but when the database is expanded, it will support all major commercial construction projects in the world.
+I have limited the amount of data to pipeline installations, but when the database is expanded, it will support all major commercial construction projects in the world.
 
 The main goals of this project are:
 
@@ -124,7 +124,7 @@ This project is still tested and in progress.
 
 In the future I will deploy a lot of others procedures, triggers, function and views.  
 
-If You notice any problem please contact me. Any advices or guidance are welcome.  
+If you notice any problem please contact me. Any advices or guidance are welcome.  
 
 ## Contact  
 
