@@ -116,10 +116,10 @@ Copy, paste it in worksheet and run.
 - views for the future reporting system: [views](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Features/views.sql)
 - employee time management package - we don't have data in the work_hours table yet, please use my dedicated [package work_hours_manipulation_pkg](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Features/work_hours_manipulation_pkg.sql)  (you can find it in my repository in the features folder) and run this program:  
  `BEGIN work_hours_manipulation_pkg.p_fill_work_hours (in_date_start => TO_DATE('2022/08/01', 'YYYY/MM/DD'), in_date_end   => TO_DATE('2022/08/31', 'YYYY/MM/DD')); END;`  
- - job inserts the default working hours from Monday to Friday at 17:00 for each employee in the project (default_work_hour_emp in the features folder),
- - calculating the monthly bonus for each welder based on his performance (welder_bonus_pkg),
- - procedure which populates the table employee_to_talk, which store information about the time we have until expiration of contracts with individual employees (p_generate_emp_to_talk),
- - trigger populates  'ndt_acceptance' column from the 'joints' table based on the results from the 'ndt_results' table (aui_f_ndt_results_trg).  
+ - job inserts the default working hours from Monday to Friday at 17:00 for each employee in the project [default_work_hour_emp in the features folder](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Features/default_work_hour_emp_job.sql),
+ - calculating the monthly bonus for each welder based on his performance [welder_bonus_pkg](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Features/welder_bonus_pkg.sql),
+ - procedure which populates the table employee_to_talk, which store information about the time we have until expiration of contracts with individual employees [p_generate_emp_to_talk](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Features/p_generate_emp_to_talk.sql),
+ - trigger populates  'ndt_acceptance' column from the 'joints' table based on the results from the 'ndt_results' table [aui_f_ndt_results_trg](https://github.com/marcinpopielec/Pipelines_Construction_Database/blob/main/Features/aui_f_ndt_results_trg.sql).  
 ## Known issues   
 This project is still tested and in progress.  
 
