@@ -553,6 +553,7 @@ INSERT INTO list_of_wps VALUES
         , 'OK Bohler 412 Mn'
         );
 END;
+/
 
 -- insert data into the joints table 
 BEGIN  
