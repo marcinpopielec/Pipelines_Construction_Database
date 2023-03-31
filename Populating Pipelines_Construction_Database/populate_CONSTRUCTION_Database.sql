@@ -1132,6 +1132,8 @@ INSERT INTO ndt_results (pipe_id, weld_no, vt_report_no, vt_acceptance, pt_repor
         , 'NA'
         );
 END;
+/
+COMMIT;
 
 
 
