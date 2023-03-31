@@ -367,6 +367,7 @@ INSERT INTO ndt_certificates VALUES
         , '2025-11-22'
         );
 END;
+/
 
 -- insert data into the reports table 
 BEGIN  
