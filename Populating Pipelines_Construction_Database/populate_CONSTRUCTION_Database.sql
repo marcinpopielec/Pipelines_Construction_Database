@@ -149,7 +149,7 @@ INSERT INTO employees (employee_id, first_name, last_name, position_id,  expire_
 
 INSERT INTO employees (employee_id, first_name, last_name, position_id,  expire_date) VALUES 
         ( 12
-        , 'Pior'
+        , 'Ryszard'
         , 'Zdun'
         , 9
         , '2024-04-30'
@@ -181,7 +181,7 @@ INSERT INTO employees (employee_id, first_name, last_name, position_id,  expire_
 
 INSERT INTO employees (employee_id, first_name, last_name, position_id,  expire_date) VALUES 
         ( 16
-        , 'Damian'
+        , 'Kamil'
         , 'Mieczyk'
         , 8
         , '2025-05-06'
